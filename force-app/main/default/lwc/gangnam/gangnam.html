@@ -1,0 +1,13 @@
+<template>
+    <h1>Gangnam Style</h1>
+      <div class="toggleGroup">
+       <lightning-input type="toggle" label="Music" onchange={toggleMusic}></lightning-input>
+       <lightning-input type="toggle" label="Dance" onchange={toggleDance}></lightning-input>
+       <lightning-input type="toggle" label="Clone" onchange={toggleClone}></lightning-input>
+    </div>
+       <audio class="music" loop="loop" src={musicres}></audio>
+       <div class="dancers">  
+       <div class="character"></div>
+       <div class="character_clone"></div>
+      </div>
+</template>
