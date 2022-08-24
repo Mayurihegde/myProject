@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>53.0</apiVersion>
+    <availableInTouch>false</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>Default communities landing page</description>
+    <label>CommunitiesLanding</label>
+    <packageVersions>
+        <majorNumber>234</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>FSL</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>2</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>NHPMS</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>5</minorNumber>
+        <namespace>RHG</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>3</minorNumber>
+        <namespace>invmgrnp</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>48</minorNumber>
+        <namespace>texcellency</namespace>
+    </packageVersions>
+</ApexPage>

@@ -1,0 +1,16 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global" >
+	<aura:attribute name="recordId" type="String" />
+    <aura:attribute name="record" type="Object" />
+    <aura:attribute name="accountRecord" type="Object" />
+
+     <force:recordData recordId="{!v.recordId}"
+          targetRecord="{!v.record}"
+          targetFields="{!v.accountRecord}"
+          fields="Id, Name"/>
+
+    <lightning:card iconName="standard:account" title="{!v.accountRecord.Name}">
+        <lightning:formattedText title="Industry" value="{!v.accountRecord.Industry}"/>
+        <lightning:formattedText title="Description" value="{!v.accountRecord.Description}"/>
+        <lightning:formattedPhone title="Phone" value="{!v.accountRecord.Phone}"/>
+	</lightning:card>
+</aura:component>
