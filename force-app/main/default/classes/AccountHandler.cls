@@ -3,7 +3,7 @@ public class AccountHandler {
         //Ok Bye
         //Finally, it's working
         //Trying merge conflicts
-        //Hope it works
+        //Hope it works:(
         //It's really working:)
         Account acct = new Account(Name=AccountName);
 
