@@ -11,7 +11,6 @@
             <lightning:inputField fieldName="First_Name__c" />
             <lightning:inputField fieldName="Last_Name__c" />
             <lightning:inputField fieldName="Email__c" />
-            <lightning:inputField fieldName="Bio__c" />
             <lightning:button aura:id="submit" type="submit" label="Update Speaker" class="slds-m-top_medium" />
         </lightning:recordEditForm>
     </div>
