@@ -4,7 +4,7 @@ public class AccountHandler {
         //Finally, it's working
         //Trying merge conflicts
         //Hope it works
-        //It's really working!
+        //It's really working:)
         Account acct = new Account(Name=AccountName);
 
         try {
