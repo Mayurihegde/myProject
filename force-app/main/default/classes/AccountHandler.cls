@@ -1,7 +1,6 @@
 public class AccountHandler {
     public static Account insertNewAccount(String AccountName){
-        //Ok Bye
-        //Finally, it's working
+     
         //Trying merge conflicts
         //Hope it works
         //Yeah, it's working
