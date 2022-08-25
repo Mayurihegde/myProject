@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
-		<members>Position__c.New_Position_Approval</members>
-		<name>ApprovalProcess</name>
+		<members>Position_Request_Responses/Position_Approved</members>
+		<name>EmailTemplate</name>
 	</types>
 	<version>53.0</version>
 </Package>
