@@ -3,6 +3,10 @@
 	<types>
 		<members>Account.Time_Waste__c</members>
 		<name>CustomField</name>
+  </types>
+  <types>
+		<members>New_Oppty</members>
+		<name>FlowDefinition</name>
 	</types>
 	<version>53.0</version>
 </Package>
